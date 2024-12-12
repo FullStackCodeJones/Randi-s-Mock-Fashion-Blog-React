@@ -1,0 +1,107 @@
+/* 1. Border on the left side of the html element */
+html {
+  border-left: 5px solid lightgray;
+}
+
+/* 2. Body styles */
+body {
+  min-height: 100vh; /* Set at least 100% height of the viewport */
+  font-family: sans-serif; /* Use sans-serif font */
+  max-width: 1000px; /* Set max width */
+  margin: 0 auto; /* Center the body */
+}
+
+/* 3. Add padding to header, main, and footer */
+header,
+main,
+footer {
+  padding: 1rem 2rem; /* Padding for top/bottom and left/right */
+}
+
+/* 4. Set the color of the <h1> to tomato */
+h1 {
+  color: tomato;
+}
+
+/* 5. Set all images to have a width of 100% */
+img {
+  width: 100%; /* Ensure images fill their containers */
+}
+
+/* 6. Style the navigation (ul) */
+nav ul {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Space out the nav items evenly */
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: lightgray; /* Light gray color for main navigation */
+}
+
+/* 7. Footer navigation color */
+footer nav a {
+  color: tomato !important; /* Tomato color for footer navigation */
+}
+
+/* 8. Style blog post titles to be larger */
+.article-title {
+  font-size: 2rem; /* Increase title size */
+  color: #333; /* Dark color for title */
+}
+
+/* 9. Style 'continues...' anchor tags */
+aside a {
+  float: right; /* Align to the right */
+  font-weight: bold; /* Make bold */
+  color: tomato; /* Tomato color */
+  text-decoration: none; /* Remove underline */
+}
+
+aside a:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* 10. Set margin and border for <article> tags */
+article {
+  margin-bottom: 4rem; /* Add bottom margin */
+  border-bottom: 1px solid lightgray; /* Border at the bottom */
+  padding-bottom: 2rem; /* Padding on the bottom */
+}
+
+/* 11. Style the first letter of paragraphs inside <article> */
+article p::first-letter {
+  font-size: 2rem; /* Make the first letter large */
+  color: lightgray; /* Light gray color */
+}
+
+/* 12. Footer copyright color */
+footer .copyright {
+  color: lightgray; /* Light gray copyright */
+}
+
+/* 13. Article image styling */
+.article-image {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* 14. Article text styles */
+.article-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* 15. Article date styling */
+.article-date {
+  color: gray; /* Color for date */
+  font-style: italic;
+}
+
+/* 16. Ensure all images are responsive and fill their containers */
+.article-image {
+  width: 100%;
+  height: auto;
+}
